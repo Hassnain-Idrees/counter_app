@@ -89,6 +89,7 @@ class counterScreenState extends State<CounterScreen>
                 ),
                 SizedBox(width: 20),
                 ElevatedButton(
+
                   onPressed: _decrementCounter,
                   child: Text('Decrease'),
                 ),
